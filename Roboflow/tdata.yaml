@@ -1,0 +1,19 @@
+train: C:\Roboflow\Football players.v1i.yolov8\train\images
+val: C:\Roboflow\Football players.v1i.yolov8\valid\images
+test: C:\Roboflow\Football players.v1i.yolov8\test\images
+
+model:
+    type: yolov5s
+    cfg: yolov5s.yaml
+    weights: yolov5s.weights
+    imgsz: 640
+
+nc: 5
+names: ['Arbitre', 'Ballon', 'Football', 'Gardien', 'Joueur']
+
+roboflow:
+  workspace: project-avtuf
+  project: football-players-7azp6
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-avtuf/football-players-7azp6/dataset/1
