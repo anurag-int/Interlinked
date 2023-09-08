@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Arbitre', 'Ballon', 'Football', 'Gardien', 'Joueur']
+
+roboflow:
+  workspace: project-avtuf
+  project: football-players-7azp6
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-avtuf/football-players-7azp6/dataset/1
