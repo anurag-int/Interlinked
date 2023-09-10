@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['divya', 'helmet', 'minion', 'umbrella']
+
+roboflow:
+  workspace: interlinked
+  project: interlinked
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/interlinked/interlinked/dataset/1
