@@ -4,8 +4,8 @@ Upload in this format:
 
 Raw images (not annotated):
 
-Image Collection -> Raw Data -> "Object Name" -> image files
+Image Collection -> Raw Data -> image files
 
 Annotated images:
 
-Image Collection -> Annotated Data -> "Object Name" -> test/train/valid -> images/labels
+Image Collection -> Annotated Data -> test/train/valid -> images/labels
